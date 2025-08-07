@@ -115,7 +115,8 @@ a {
 }
 /* =========Clients====== */
 .clients {
-    margin-top: 122px;
+    margin-top: 79px;
+    padding: 43px 0 54px;
 }
 .clients .row {
     display: flex;
@@ -138,7 +139,8 @@ a {
 }
 /* ========Guides========== */
 .guides {
-    margin-top: 200px;
+    margin-top: 40px;
+    padding: 93 px 0 79px;
 }
 .guides .sub-title {
     color: #000339;
@@ -208,7 +210,7 @@ a {
 }
 /* ===============Features========== */
 .features {
-    margin-top: 120px;
+    margin-top: 41px;
     padding-top: 110px;
     background: #f5fafe;
 }
@@ -307,4 +309,95 @@ a {
     font-size: 1.4rem;
     font-weight: 500;
     letter-spacing: 0.01em;
+}
+/* =============-Stats============ */
+.stats {
+    margin-top: 75px;
+    padding: 50px 0;
+}
+.stats .content {
+    width: 1048px;
+}
+.stats .row {
+    display: flex;
+}
+.stats .img-block,
+.stats .info {
+    width: 50%;
+}
+.stats .info {
+    padding: 79px 0 0 165px;
+}
+.stats .img-block .image {
+    display: block;
+    margin-left: auto;
+    width: 400px;
+    height: 460px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+.stats .sub-titlee {
+    position: relative;
+    width: 269px;
+    color: #000339;
+    font-size: 3.5rem;
+    font-weight: 600;
+    line-height: 1.29;
+}
+.stats .sub-titlee::before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: "";
+    display: block;
+    width: 41px;
+    height: 4px;
+    border-radius: 12px;
+    background: #000339;
+}
+.stats .info .decs {
+    margin-top: 20px;
+    width: 309px;
+    color: #5a6473;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.88; /* 187.5% */
+}
+
+.stats .img-block {
+    position: relative;
+    
+}
+.stats .stats-trend {
+    position: absolute;
+    background-color: #fff;
+    top : 0;
+    left: 0;
+    width: 239px;
+    border-radius: 0 0 12px 12px;
+    padding: 45px 22px 40px;
+}
+.stats .stats-trend .value {
+    width: 159px;
+    color: #000339;
+    font-size: 2.6rem;
+    font-weight: 600;
+    line-height: 0.26px;
+    letter-spacing: 0.26px;
+}
+.stats .icon{
+    margin-left: auto;;
+}
+.stats .stats-trend .decs {
+    margin-top: 8px;
+    width: 194px;
+    color: #A7A7A7;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5; /* 150% */
+    }
+.stats .stats-trend .separate {
+    margin-top: 26px;
+    height: 1.2px;
+    background: #E9E9E9;
 }
