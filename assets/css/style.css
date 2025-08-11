@@ -500,6 +500,7 @@ a {
 
 .footer {
     margin-top: 55px;
+    padding: 50px 0 58px;
 }
 .footer .row {
     display: flex;
@@ -510,16 +511,36 @@ a {
     font-size: 2rem;
     font-weight: 700;
     }
-.footer .list{
+.footer .list,
+.footer .desc{
     margin-top: 42px;
 }
 .footer .item {
+    margin-top: 18px;
+}
+.footer .item a {
     color: #7A7A7E;
     font-size: 1.6rem;
     font-weight: 400;
+    white-space: nowrap;
 }
-
 .footer .column .desc {
     width: 257px;
-    padding: 40px 0;
+    color: #7A7A7E;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.75; /* 175% */
+    }
+.footer .social {
+    margin-top: 40px;
+}
+.footer .coppyright {
+    color: #C2C2C2;
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+.footer .roww {
+    display: flex;
+    align-items: center;
+    margin-top: 81px;
 }
